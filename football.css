@@ -54,7 +54,7 @@ img{
 }
 .largeimg{
     display:grid;
-    grid-template-columns: 20% 50% 30%;
+    grid-template-columns: 30% 40% 30%;
 }
 .largeimg #playerintro{
     font-size: 20px;

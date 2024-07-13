@@ -1,0 +1,61 @@
+h1,h2{
+    text-align: center;
+}
+body{
+    background-image: linear-gradient(to bottom,rgb(214, 10, 10),rgb(245, 126, 126));
+}
+.largeimg img{
+    width:500px;
+    height:400px;
+}
+.largeimg p{
+    font-size: 30px;
+
+    left:500px;
+}
+.smallimg{
+    display: grid;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+}
+.smallimg img{
+    position: relative;
+    top:15px;
+    width:200px;
+    height:150px;
+    border:dotted black 5px;
+    margin-left:30px;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: .5s;
+    transition-delay: .3s;
+}
+.smallimg img:hover{
+    border:solid gold 5px;
+}
+.smallimg img:focus{
+    border:solid gold 5px;
+}
+#largeimgtext{
+    color:cyan;
+    text-align: center;
+}
+#randomplayerpic,#randomplayerpic2{
+    width:200px;
+    height:150px;
+}
+img:focus{
+    opacity:100%;
+}
+img:hover{
+    opacity: 100%;
+}
+img{
+    opacity:50%;
+}
+.largeimg{
+    display:grid;
+    grid-template-columns: 20% 50% 30%;
+}
+.largeimg #playerintro{
+    font-size: 20px;
+}

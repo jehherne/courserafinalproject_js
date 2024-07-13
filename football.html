@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/png" href="mu.png">
+    <link rel="stylesheet" href="football.css">
+    <script src="football.js"></script>
+</head>
+<body onload="randomplayer(),addtab()">
+    <h1>Manchester United</h1>
+    <h2>24/25</h2>
+    <h3 id="randomplayer"></h3>
+    <img src="" id="randomplayerpic" alt="Random Player">
+    <h3 id="randomplayer2"></h3>
+    <img src="" id="randomplayerpic2" alt="Opponent Random Player">
+    <h4>Who WIN?</h4>
+    <div class="largeimg">
+        <p id="playerintro"></p>
+        <img src="white.jpg" alt="White Image" id="largeimg" style="opacity: 100%;">
+        <p id="largeimgtext">Hover To The Player's Image</p>
+    </div>
+    <div class="smallimg">
+        <img src="bruno.jpg" alt="Bruno Fernandes" id="smallimg1" onmouseover="displaylargeimg(this)" onmouseleave="removelargeimg(this)">
+        <img src="garnacho.jpg" alt="Alejandro Garnacho" id="smallimg2" onmouseover="displaylargeimg(this)" onmouseleave="removelargeimg(this)">
+        <img src="kobbie.jpeg" alt="Kobbie Mainoo" id="smallimg3" onmouseover="displaylargeimg(this)" onmouseleave="removelargeimg(this)">
+        <img src="hojlund.jpg" alt="Rasmus Hojlund" id="smallimg4" onmouseover="displaylargeimg(this)" onmouseleave="removelargeimg(this)">
+        <img src="lisandro.jpeg" alt="Lisandro Martinez" id="smallimg5" onmouseover="displaylargeimg(this)" onmouseleave="removelargeimg(this)">
+        <img src="dalot.jpg"alt="Diogo Dalot" id="smallimg6" onmouseover="displaylargeimg(this)" onmouseleave="removelargeimg(this)">
+    </div>
+</body>
+</html>

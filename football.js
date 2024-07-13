@@ -16,6 +16,7 @@ function removelargeimg(element){
     var largeimage = document.getElementById("largeimg");
     largeimage.setAttribute("src","white.jpg");
     document.getElementById("largeimgtext").innerHTML="Hover To The Player's Image";
+    document.getElementById("playerintro").innerHTML="";
 }
 function randomplayer(){
     var players=document.querySelectorAll("[alt]");
